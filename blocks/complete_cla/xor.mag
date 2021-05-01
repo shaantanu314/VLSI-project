@@ -1,0 +1,66 @@
+magic
+tech scmos
+timestamp 1618484725
+<< polycontact >>
+rect 33 41 37 45
+rect 47 22 51 26
+rect 73 20 77 24
+rect 0 13 4 17
+rect 8 13 12 17
+rect 87 15 91 19
+rect 33 -26 37 -22
+rect 47 -47 51 -43
+<< metal1 >>
+rect 15 76 35 80
+rect 57 76 76 80
+rect 15 71 19 76
+rect -11 67 -7 71
+rect 13 68 17 71
+rect 72 57 76 76
+rect 72 55 77 57
+rect 58 45 65 49
+rect 23 41 33 45
+rect 23 40 27 41
+rect 19 36 27 40
+rect -11 9 -9 13
+rect 23 -22 27 36
+rect 61 24 65 45
+rect 61 20 73 24
+rect 98 22 105 26
+rect 30 16 36 18
+rect 82 15 87 19
+rect 43 11 47 14
+rect 67 -5 71 -1
+rect 82 -20 86 15
+rect 23 -26 33 -22
+rect 58 -24 86 -20
+rect 27 -51 30 -47
+use ../nand/nand  nand_0 ../nand
+timestamp 1618406033
+transform 1 0 2 0 1 43
+box -11 -34 18 28
+use ../nand/nand  nand_1
+timestamp 1618406033
+transform 1 0 41 0 1 52
+box -11 -34 18 28
+use ../nand/nand  nand_2
+timestamp 1618406033
+transform 1 0 41 0 1 -17
+box -11 -34 18 28
+use ../nand/nand  nand_3
+timestamp 1618406033
+transform 1 0 81 0 1 29
+box -11 -34 18 28
+<< labels >>
+rlabel metal1 102 24 102 24 7 y
+rlabel polycontact 49 -46 49 -46 1 b
+rlabel polycontact 49 24 49 24 1 a
+rlabel polycontact 10 16 10 16 1 b
+rlabel polycontact 2 14 2 14 1 a
+rlabel metal1 -9 69 -9 69 3 vdd
+rlabel metal1 46 12 46 12 1 vdd
+rlabel metal1 -10 11 -10 11 3 gnd
+rlabel metal1 33 17 33 17 1 gnd
+rlabel metal1 29 -48 29 -48 1 gnd
+rlabel metal1 69 -3 69 -3 1 gnd
+<< end >>
